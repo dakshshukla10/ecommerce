@@ -1,0 +1,237 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link   
+        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="icon" href="/img/logo_text.png" type="image/png">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+    <title>Mindful India|Shop</title>
+</head>
+
+<body>
+    <nav id="nav">
+        <div class="navTop">
+            <div class="navItem">
+                <img src="./img/logo_text.png" alt="Logo of webpage">
+        </div>
+        <div class="navBottom">
+            <h3 class="menuItem"><a href="index.html">HOME</a></h3>
+            <h3 class="menuItem"><a href="#bottom">ABOUT</a></h3>
+            <h3 class="menuItem"><a href="./shopping_cart/index.html">SHOP</a></h3>
+            <h3 class="menuItem"><a href="login.html">ACCOUNT</a></h3>
+            <a href="./shopping_cart/cart.html">
+                <div class="cart">
+                  <i class="bi bi-cart2"></i>
+                  <div id="cartAmount" class="cartAmount">0</div>
+                </div>
+              </a>
+        </div>
+    </nav>
+    <div class="slider">
+        <div class="sliderWrapper">
+            <div class="sliderItem">
+                <img src="./img/book.png.webp" alt="" class="sliderImg">
+                <div class="sliderBg"></div>
+                <h1 class="sliderTitle">BULLET<br>JOURNAL</h1>
+                <h2 class="sliderPrice">₹799</h2>
+                <a href="#product">
+                    <button class="buyButton">BUY NOW!</button>
+                </a>
+            </div>
+            <div class="sliderItem">
+                <img src="./img/mugs.png" alt="" class="sliderImg">
+                <div class="sliderBg"></div>
+                <h1 class="sliderTitle">MORNING<br>MOTIVATION</h1>
+                <h2 class="sliderPrice">₹499</h2>
+                <a href="#product">
+                    <button class="buyButton">BUY NOW!</button>
+                </a>
+            </div>
+            <div class="sliderItem">
+                <img src="./img/skincare.png" alt="" class="sliderImg">
+                <div class="sliderBg"></div>
+                <h1 class="sliderTitle">CLEAR</br> SILKY<br>SKIN</h1>
+                <h2 class="sliderPrice">₹1,999</h2>
+                <a href="#product">
+                    <button class="buyButton">BUY NOW!</button>
+                </a>
+            </div>
+            <div class="sliderItem">
+                <img src="./img/daily.png" alt="" class="sliderImg">
+                <div class="sliderBg"></div>
+                <h1 class="sliderTitle">ESSENTIAL</br> VITAMINS &</br> MINERALS</h1>
+                <h2 class="sliderPrice">₹699</h2>
+                <a href="#product">
+                    <button class="buyButton">BUY NOW!</button>
+                </a>
+            </div>
+            <div class="sliderItem">
+                <img src="./img/sleep_aid.png" alt="" class="sliderImg">
+                <div class="sliderBg"></div>
+                <h1 class="sliderTitle">SLEEP TIGHT</br> &</br> WAKE UP FRESH!</h1>
+                <h2 class="sliderPrice">₹599</h2>
+                <a href="#product">
+                    <button class="buyButton">BUY NOW!</button>
+                </a>
+            </div>
+        </div>
+    </div>
+   
+    <div class="features">
+        <div class="feature">
+            <img src="./img/shipping.png" alt="" class="featureIcon">
+            <span class="featureTitle">FREE SHIPPING</span>
+            <span class="featureDesc">Free shipping on all orders.</span>
+        </div>
+        <div class="feature">
+            <img class="featureIcon" src="./img/return.png" alt="">
+            <span class="featureTitle">30 DAYS RETURN</span>
+            <span class="featureDesc">No question return and easy refund in 14 days.</span>
+        </div>
+        <div class="feature">
+            <img class="featureIcon" src="./img/gift.png" alt="">
+            <span class="featureTitle">GIFT CARDS</span>
+            <span class="featureDesc">Buy gift cards and use coupon codes easily.</span>
+        </div>
+        <div class="feature">
+            <img class="featureIcon" src="./img/contact.png" alt="">
+            <span class="featureTitle">CONTACT US!</span>
+            <span class="featureDesc">Keep in touch via email and support system.</span>
+        </div>
+    </div>
+
+    <div class="product" id="product">
+        <img src="./img/book.png.webp" alt="" class="productImg">
+        <div class="productDetails">
+            <h1 class="productTitle">BULLET JOURNAL</h1>
+            <h2 class="productPrice">₹799</h2>
+            <p class="productDesc">A bullet journal is a versatile and customizable organizational system that helps you keep track of your daily tasks, goals, and schedules in a creative and fun way. Our bullet journal product is perfect for anyone who wants to stay on top of their life while also expressing their creativity.</p>
+            <div class="colors">
+                <div class="color"></div>
+                <div class="color"></div>
+                <div class="color"></div>
+            </div>
+            <button class="productButton">BUY NOW!</button>
+        </div>
+        <div class="payment">
+            <h1 class="payTitle">Personal Information</h1>
+            <label>Name and Surname</label>
+            <input type="text" placeholder="Daksh Shukla" class="payInput">
+            <label>Phone Number</label>
+            <input type="text" placeholder="+91 8088500518" class="payInput">
+            <label>Address</label>
+            <input type="text" placeholder="Shantha Sharada Eshwar Nagar" class="payInput">
+            <h1 class="payTitle">Card Information</h1>
+            <div class="cardIcons">
+                <img src="./img/visa.png" width="40" alt="" class="cardIcon">
+                <img src="./img/master.png" alt="" width="40" class="cardIcon">
+            </div>
+            <input type="password" class="payInput" placeholder="Card Number">
+            <div class="cardInfo">
+                <input type="text" placeholder="mm" class="payInput sm">
+                <input type="text" placeholder="yyyy" class="payInput sm">
+                <input type="text" placeholder="cvv" class="payInput sm">
+            </div>
+            <button class="payButton">Checkout!</button>
+            <span class="close">X</span>
+        </div>
+    </div>
+    <div class="gallery">
+        <div class="galleryItem">
+            <h1 class="galleryTitle">Be Yourself!</h1>
+            <img src="/img/be_yourself.jpg"
+                alt="" class="galleryImg">
+        </div>
+        <div class="galleryItem">
+            <img src="/img/new_life.jpg"
+                alt="" class="galleryImg">
+            <h1 class="galleryTitle">This is the First Day of Your New Life</h1>
+        </div>
+        <div class="galleryItem">
+            <h1 class="galleryTitle">Be Kind To<br>Yourself!</h1>
+            <br>
+            <img src="/img/just_do_it.jpg"
+                alt="" class="galleryImg">
+        </div>
+    </div>
+    <div class="newSeason">
+        <div class="nsItem">
+            <img src="/img/new_product_1.jpg"
+                alt="" class="nsImg">
+        </div>
+        <div class="nsItem">
+            <h3 class="nsTitleSm">NEW ARRIVALS</h3>
+            <h1 class="nsTitle">BEST SELF-CARE PRODUCTS</h1>
+            <h1 class="nsTitle">FOR THE BEST YOU!</h1>
+            <a href="#nav">
+                <button class="nsButton"><a href="./shopping_cart/">EXPLORE NOW</a></button>
+            </a>
+        </div>
+        <div class="nsItem">
+            <img src="/img/new_product_2.jpg"
+                alt="" class="nsImg">
+        </div>
+    </div> 
+    <footer>
+        <div class="footerLeft">
+            <div class="footerMenu">
+                <h1 class="fMenuTitle">About Us</h1>
+                <ul class="fList">
+                    <li class="fListItem">Company</li>
+                    <li class="fListItem">Contact</li>
+                    <li class="fListItem">Careers</li>
+                    <li class="fListItem">Affiliates</li>
+                    <li class="fListItem">Stores</li>
+                </ul>
+            </div>
+            <div class="footerMenu">
+                <h1 class="fMenuTitle">Useful Links</h1>
+                <ul class="fList">
+                    <li class="fListItem">Support</li>
+                    <li class="fListItem">Refund</li>
+                    <li class="fListItem">FAQ</li>
+                    <li class="fListItem">Feedback</li>
+                    <li class="fListItem">Stories</li>
+                </ul>
+            </div>
+            <div class="footerMenu">
+                <h1 class="fMenuTitle">Products</h1>
+                <ul class="fList">
+                    <li class="fListItem">Journals</li>
+                    <li class="fListItem">Courses</li>
+                    <li class="fListItem">Books</li>
+                    <li class="fListItem">Mugs</li>
+                </ul>
+            </div>
+        </div>
+        <div class="footerRight">
+            <div class="footerRightMenu">
+                <h1 class="fMenuTitle">Get your free <em>Daily Check-In</em> pdf! </h1>
+                <div class="fMail">
+                    <input type="text" placeholder="your@email.com" class="fInput">
+                    <button class="fButton">Join!</button>
+                </div>
+            </div>
+            <div class="footerRightMenu">
+                <h1 class="fMenuTitle">Follow Us</h1>
+                <div class="fIcons">
+                    <img src="./img/facebook.png" alt="" class="fIcon">
+                    <img src="./img/twitter.png" alt="" class="fIcon">
+                    <img src="./img/instagram.png" alt="" class="fIcon">
+                    <img src="./img/whatsapp.png" alt="" class="fIcon">
+                </div>
+            </div>
+            <div id ="bottom" class="footerRightMenu">
+                <p class="copyright">&copy; 2023 Daksh Shukla<br> All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+    <script src="./app.js"></script>
+</body>
+
+</html>
